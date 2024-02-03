@@ -3,14 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana;
+    font-family: Helvetica;
     color: #333;
   }
   
   body {
     background-image: url("../img/bg.jpg");
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
   }
   
   button {
@@ -52,7 +52,7 @@
   /* Todo Header */
   .todo-container {
     max-width: 450px;
-    margin: 3rem auto 0;
+    margin: 3rem auto;
     background-color: #fdfdfd;
     padding: 1.5rem;
     border-radius: 15px;
@@ -87,7 +87,7 @@
   
   #cancel-edit-btn {
     margin-top: 1rem;
-    color: #444;
+    /* color: #444; */
   }
   
   /* Todo Toolbar */
@@ -134,7 +134,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem ;
     border-bottom: 1px solid #ddd;
     transition: 0.3s;
   }
